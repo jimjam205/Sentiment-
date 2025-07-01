@@ -12,7 +12,7 @@ nltk.download('wordnet')
 
 st.set_page_config(page_title="Instagram Comment Sentiment Analyzer", layout="centered")
 
-st.title("📊 Instagram Comment Sentiment Analyzer")
+st.title("📊 Social Comment Sentiment Analyzer")
 st.write("Upload a text or CSV file of Instagram comments, and we’ll analyze the sentiment.")
 
 # Upload file
