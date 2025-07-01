@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 from textblob import TextBlob
 import matplotlib.pyplot as plt
+import nltk
+
+# Download required corpora
+nltk.download('brown')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 st.set_page_config(page_title="Instagram Comment Sentiment Analyzer", layout="centered")
 
